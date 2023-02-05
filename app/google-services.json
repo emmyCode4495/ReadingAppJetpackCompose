@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248721415372",
+    "project_id": "compose-reading-app",
+    "storage_bucket": "compose-reading-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248721415372:android:68ae12eebf24f7b36df669",
+        "android_client_info": {
+          "package_name": "com.example.readingappjet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248721415372-fmvpk0eblonf8b2tlilbe4hbtiafe9ba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm317Rh4kb0XP7_E6kYF1iy2LrVweEjAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248721415372-fmvpk0eblonf8b2tlilbe4hbtiafe9ba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
