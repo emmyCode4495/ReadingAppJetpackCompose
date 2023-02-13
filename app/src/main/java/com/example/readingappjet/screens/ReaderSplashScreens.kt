@@ -20,6 +20,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.example.readingappjet.components.HeaderName
 import com.example.readingappjet.navigation.ReaderScreens
 import kotlinx.coroutines.delay
 
@@ -53,12 +54,13 @@ fun ReaderSplashScreen(navController: NavController = NavController(context=Loca
     Column(modifier = Modifier.padding(1.dp),
     horizontalAlignment = Alignment.CenterHorizontally,
     verticalArrangement = Arrangement.Center) {
-        Text(text = "Readiee",
-            style = MaterialTheme.typography.h3,
-            color = Color.Red.copy(alpha = 0.5f))
+
+        HeaderName()
         Spacer(modifier = Modifier.height(15.dp))
         Text(text = "\"Readers are Leaders!\"",
         style = MaterialTheme.typography.h5, color = Color.LightGray )
     }
     }
     }
+
+
